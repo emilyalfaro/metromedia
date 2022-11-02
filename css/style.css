@@ -3,6 +3,19 @@ header{
     background-color: #000000;
 }
 
+.header-area.sticky {
+    /box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);/
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+	transition: 0.3s all ease;
+}
+.header-area.sticky .navbar-light{
+	background-color: #000000 !important;
+}
+
 body{
 	font-family: "Cascadia Code";
 	color: #FFFFFF;
